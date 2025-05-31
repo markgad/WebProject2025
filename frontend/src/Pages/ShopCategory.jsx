@@ -32,7 +32,7 @@ const ShopCategory = (props) => {
     <div className="shopcategory">
       <img src={props.banner} className="shopcategory-banner" alt="" />
       <div className="shopcategory-indexSort">
-        <p>Showing  {allproducts.filter(item => item.category === props.category).length} Products</p>
+        <p>Showing {allproducts.filter(item => item.category === props.category).length} Products</p>
         <div className="shopcategory-sort">Sort by  <img src={dropdown_icon} alt="" /></div>
       </div>
       <div className="shopcategory-products">
